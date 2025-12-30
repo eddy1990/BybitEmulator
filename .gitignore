@@ -1,0 +1,42 @@
+/log/
+/BacktestSignals.html
+/config_files/my_secrets.py
+/.idea/
+/__init__.py
+# =========================
+# Python
+# =========================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# =========================
+# Virtual Environments
+# =========================
+.venv/
+venv/
+env/
+
+# =========================
+# Test / Cache
+# =========================
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# =========================
+# Data / Backtests
+# =========================
+data/*.json
+
+# =========================
+# Secrets
+# =========================
+tools/my_secrets.py
+.env
+
+# =========================
+# VS Code (optional)
+# =========================
+.vscode/
